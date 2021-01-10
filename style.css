@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "ProximaNova ExtraBold","Helvetica Neue",Helvetica,Arial,sans-serif; */
+}
+.navbar-brand img{
+    width: 120px;
+    height: 60px;
+}
+.menu-left ul li a{
+    margin-right: 10px;
+    color: black;
+}
+.menu-left ul li a:hover{
+    color: blue;
+}
+#model{
+    height: 90vh;
+}
+#model h1{
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 56px;
+}
+#model p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#model .getaquote {
+    line-height: inherit;
+    color: #1779ba;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+#search .search-div{
+    padding: 10px;
+    width: 100wh;
+    height: 130px;
+    background-color: rgb(1, 1, 70);
+}
+
+#search .search-div input{
+    width: 100%;
+    height: 50px;
+}
+#search .search-div input::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+#search .search-div button{
+    width: 100%;
+    height: 50px;
+}
+#search p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(163, 156, 156);
+}
+#search p a{
+    font-size: 15px;
+    color: rgb(163, 156, 156);
+}
+
+
+#brands-back .get-btn{
+    height: 300px;
+}
+#brands-back .get-btn a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#brands h1{
+    font-weight: 500;
+}
+
+#get-start{
+    height: 300px;
+    background-color: rgb(4, 4, 71);
+}
+
+#get-start p{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#footer{
+    margin-top: 100px;
+}
+
+#footer .footer-link ul li{
+    list-style: none;
+    font-style: 20px;
+}
+#footer .footer-link ul li a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+#footer .footer-link ul li a:hover{
+    text-decoration: none;
+    color: rgb(22, 18, 18);
+}
+
+
+#footer .footer-logo img{
+    width: 100px;
+    height: 60px;
+}
+
+#footer .footer-logo .social-media{
+    display: inline;
+}
+#footer .footer-logo .social-media .fa{
+    /* display: inline; */
+    font-size: 30px;
+    letter-spacing: 15px;
+    color: rgb(78, 73, 73);
+}
