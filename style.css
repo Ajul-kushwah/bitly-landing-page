@@ -79,6 +79,10 @@
     text-decoration: none;
 }
 
+#brands-back .btn-light-color{
+    color: #add8e6;
+}
+
 #brands h1{
     font-weight: 500;
 }
